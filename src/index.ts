@@ -23,7 +23,7 @@ async function start() {
 
   const server = new ApolloServer({ typeDefs, resolvers } as any);
   await server.start();
-  server.applyMiddleware({ app, path: '/graphql' });
+  server.applyMiddleware({ app: app as any, path: '/graphql' });
 
   // Swagger UI for API documentation
   app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));

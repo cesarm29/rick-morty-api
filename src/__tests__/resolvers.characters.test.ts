@@ -1,3 +1,4 @@
+/// <reference types="jest" />
 import resolvers from '../graphql/resolvers';
 
 // Mock models and redis client
