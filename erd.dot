@@ -1,0 +1,20 @@
+digraph erd {
+  graph [rankdir=LR];
+  node [shape=plaintext];
+
+  Characters [label=<
+    <table border="0" cellborder="1" cellspacing="0">
+      <tr><td bgcolor="#e8e8f8" colspan="2"><b>Characters</b></td></tr>
+      <tr><td align="left">id &nbsp; PK</td><td>INTEGER</td></tr>
+      <tr><td align="left">name</td><td>STRING</td></tr>
+      <tr><td align="left">status</td><td>STRING</td></tr>
+      <tr><td align="left">species</td><td>STRING</td></tr>
+      <tr><td align="left">type</td><td>STRING</td></tr>
+      <tr><td align="left">gender</td><td>STRING</td></tr>
+      <tr><td align="left">origin</td><td>STRING</td></tr>
+      <tr><td align="left">image</td><td>STRING</td></tr>
+      <tr><td align="left">url</td><td>STRING</td></tr>
+    </table>
+  >];
+
+}
